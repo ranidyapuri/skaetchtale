@@ -1,0 +1,100 @@
+html{
+    scroll-behavior: smooth;
+}
+nav{
+    background-color: #f5eee9;
+}
+body{
+    background-color: #f5eee9;
+}
+.title{
+    margin-top: 80px;
+    letter-spacing: 5px;
+}
+@font-face{
+    font-family: 'Playfair';
+    src: url(font/PlayfairDisplayMedium.ttf);
+}
+.title h1{
+    font-family: 'Playfair';
+}
+.circle{
+    font-size: 28px;
+    text-align: left;
+    letter-spacing: 5px;
+}
+#intro, #collection{
+    padding-top: 60px;
+}
+.welcome-text{
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 60px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+.welcome-text h1{
+    font-family: 'Playfair';
+}
+.title-1{
+    margin-top: 60px;
+    text-align: center;
+}
+.title-1 p{
+    letter-spacing: 3px;
+}
+.title-1 h1{
+    font-family: 'Playfair';
+}
+.title-1 i{
+    font-size: 36px;
+}
+hr{
+    border-top: 0.5px solid rgb(121, 121, 121);
+    margin: 30px 20px;
+}
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+}
+.card-title{
+    letter-spacing: 4px;
+}
+.card-text{
+    font-style: oblique;
+}
+.input-email{
+    text-align: center;
+    margin-top: 40px;
+}
+.contact h1{
+    font-family: 'Playfair';
+}
+.contact-link{
+    letter-spacing: 5px;
+    font-size: 26px;
+    float: left;
+    color: black;
+}
+.contact-link:hover{
+    color: #a08668;
+}
+@media only screen and (min-width: 470px){
+    .title h1{
+        font-size: 80px;
+    }
+    .welcome-text h1{
+        font-size: 60px;
+    }
+    .title-1 h1{
+        font-size: 60px;
+    }
+    .contact h1{
+        font-size: 50px;
+    }
+}
+@media only screen and (max-width: 470px){
+    .welcome-text p{
+        text-align: justify;
+    }
+}
